@@ -1,0 +1,43 @@
+.Home {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Roboto;
+
+}
+.HelloMessage {
+    margin-top: 15vh;
+    text-transform: uppercase;
+    color: #85c2f1;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+
+.Arrow {
+    padding-top: 40px;
+    font-size: 2.5rem;
+    color: #85c2f1;
+    animation: arrowMove 1s linear both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowMove {
+    60% {
+        padding-top: 40px;
+    }
+    70% {
+        padding-top: 35px;
+    }
+    80% {
+        padding-top: 30px;
+    }
+    90% {
+        padding-top: 37px;
+    }
+    100% {
+        padding-top: 40px;
+    }
+}
