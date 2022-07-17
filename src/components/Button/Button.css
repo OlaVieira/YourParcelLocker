@@ -1,4 +1,5 @@
-.MainButton {
+.btn, .button {
+
     margin-top: 30px;
     padding: 60px 80px 60px 80px;
     text-transform: uppercase;
@@ -9,8 +10,9 @@
     font-weight: bold;
     border: #85c2f1 5px solid;
     border-radius: 10px;
+    text-decoration: none;
 }
-.MainButton:hover {
+.btn:hover, .button:hover {
     background-color: #85c2f1;
     cursor: pointer;
 }
