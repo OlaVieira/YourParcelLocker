@@ -6,6 +6,6 @@ Just fill the form.
 
 ## Technologies
 
-JS, HTML, CSS, React
+JS, TS, Express.js, React.js, CSS.
 
 
