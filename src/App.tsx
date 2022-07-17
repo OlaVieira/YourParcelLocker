@@ -1,6 +1,6 @@
 import './App.css';
-import {ParcelLockerH1} from "./components/PacelLockerH1Component/ParcelLockerH1";
-import {Home} from "./components/HomeComponent/Home";
+import {ParcelLockerH1} from "./components/PacelLockerH1/ParcelLockerH1";
+import {Home} from "./components/Home/Home";
 
 export const App = () => {
   return (
